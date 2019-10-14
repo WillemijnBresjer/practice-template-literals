@@ -19,10 +19,10 @@ function createPlanetHTML(planet) {
       <p>${planet.description}</p>
       <h3>Planet Profile</h3>
       <ul>
-        <li><strong>Diameter: </strong>${planet.diameter}</li>
-        <li><strong>Moons: </strong>${planet.moons}</li>
-        <li><strong>Temperature: </strong>${planet.temp}</li>
-        <li><strong>Orbit Period: </strong>${planet.orbitDays} days (${planet.orbitYears} years)</li>
+        <li><strong>Diameter:</strong> ${planet.diameter}</li>
+        <li><strong>Moons:</strong> ${planet.moons}</li>
+        <li><strong>Temperature:</strong> ${planet.temp}</li>
+        <li><strong>Orbit Period:</strong> ${planet.orbitDays} days (${planet.orbitYears} years)</li>
       </ul>
       <p>${planet.facts}</p>
     </div>
